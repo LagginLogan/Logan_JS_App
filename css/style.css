@@ -1,0 +1,143 @@
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Rye', cursive;*/
+
+body {
+font-family: 'Libre Baskerville', serif;
+font-size: 1rem;
+background-color: rgb(43, 43, 43);
+}
+h1 {
+    font-size: 2rem;
+    font-family: 'Rye', cursive;
+    color: rgb(178, 18, 0);
+    text-align: center;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				 
+}
+
+.intro_text {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+    text-align: center;
+				 
+}
+
+.choice_buttons{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    
+
+}
+
+
+.choice {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.choice:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.choice:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.civ{
+    background-color: grey;
+}
+
+.civ:hover{
+    background-color: rgb(150, 150, 150);
+}
+
+.green{
+    background-color: rgb(0, 226, 38);
+}
+
+.green:hover{
+    background-color: rgb(0, 255, 42);
+}
+
+.red{
+    background-color: rgb(226, 0, 0);
+}
+
+.red:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.blue{
+    background-color: rgb(0, 38, 255);
+}
+
+.blue:hover{
+    background-color: rgb(0, 53, 255);
+}
+
+.purple{
+    background-color: rgb(162, 0, 226);
+}
+
+.purple:hover{
+    background-color: rgb(195, 0, 226);
+}
+
+.brown{
+    background-color: rgb(226, 72, 0);
+}
+
+.brown:hover{
+    background-color: rgb(226, 90, 0);
+}
+
+.cyan{
+    background-color: rgb(0, 200, 226);
+}
+
+.cyan:hover{
+    background-color: rgb(0, 226, 226);
+}
+
+.genText{
+
+ font-family: 'Libre Baskerville', serif;
+ font-size: 1rem;
+ color: rgb(255, 255, 255);
+ text-align: center;
+  
+ justify-content: center;
+ margin-left: 5em;
+ margin-right: 5em;
+ margin-top: 5em;
+
+ flex: 1 1 20em;
+ background-color: rgb(31, 31, 31);
+ border: 3px solid rgb(204, 204, 204);
+ padding: 0.4em;
+ min-width: 10em;
+}
+
+.display{
+    content: '\201C';
+}
